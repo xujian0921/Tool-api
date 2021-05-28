@@ -1,0 +1,23 @@
+{
+  "name": "toolapi",
+  "version": "1.0.0",
+  "description": "tool-api",
+  "author": "JJM",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-json-error": "^3.1.2",
+    "koa-parameter": "^3.0.1",
+    "koa-router": "^10.0.0",
+    "pdf2json": "^1.2.0",
+    "pdfreader": "^1.2.8",
+    "request": "^2.88.2",
+    "urlencode": "^1.1.0",
+    "uuid": "^3.4.0",
+    "winston": "^3.3.3"
+  }
+}
