@@ -71,6 +71,7 @@ class PdfCtl {
       pdfUrl: { type: 'string', required: true }
     })
     const urlInfo = new URL(ctx.query.pdfUrl)
+    // 此处是进行了服务器转发加速，不需要的可以删除
     const PDF_FORWORD = process.env.PDF_FORWORD
     let url =  PDF_FORWORD + urlInfo.pathname + urlInfo.search
 
